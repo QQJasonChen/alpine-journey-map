@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="2026 日內瓦、霞慕尼與策馬特互動旅行地圖">
+  <title>Alpine Notes · 2026 阿爾卑斯旅行地圖</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="回到頁首"><span class="brand-mark">A</span><span>Alpine Notes</span></a>
+    <div class="trip-range"><span class="live-dot"></span>2026.07.24 — 08.02</div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow">SWITZERLAND · FRANCE · ITALY</div>
+      <h1>穿越阿爾卑斯，<br><em>把山留在地圖上。</em></h1>
+      <p>從日內瓦出發，越過白朗峰冰河，再走進馬特洪峰的倒影。點開每個座標，重訪這趟 10 天旅程。</p>
+      <div class="hero-stats" aria-label="旅程摘要">
+        <div><strong>10</strong><span>天</span></div>
+        <div><strong>4</strong><span>國家</span></div>
+        <div><strong>3,842 m</strong><span>最高點</span></div>
+        <div><strong>20</strong><span>旅程座標</span></div>
+      </div>
+    </section>
+
+    <section class="map-section" aria-label="互動地圖">
+      <div class="map-toolbar">
+        <div>
+          <p class="section-kicker">EXPLORE THE JOURNEY</p>
+          <h2>旅程地圖</h2>
+        </div>
+        <button class="route-button" id="fitRoute" type="button">⌖ 顯示完整路線</button>
+      </div>
+      <div class="filter-bar" id="filters" aria-label="地點與分類篩選"></div>
+      <div class="map-shell">
+        <div id="map" role="application" aria-label="2026 阿爾卑斯互動旅行地圖"></div>
+        <aside class="map-note"><b>如何探索</b><span>點擊地圖標記或下方時間軸，查看地點故事與導航連結。</span></aside>
+      </div>
+    </section>
+
+    <section class="timeline-section" id="timelineSection">
+      <div class="section-heading">
+        <div><p class="section-kicker">DAY BY DAY</p><h2>行程時間軸</h2></div>
+        <p>確切日期尚未由旅行者確認的節點，以「日期待確認」標示，可直接在 <code>script.js</code> 編輯。</p>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="memories-section">
+      <div class="section-heading light">
+        <div><p class="section-kicker">TOP MEMORIES</p><h2>這趟旅行，最想記住的三幕</h2></div>
+        <p>依現有旅程紀錄整理；照片欄位已預留，換上自己的影像就能完成。</p>
+      </div>
+      <div class="memory-grid" id="memories"></div>
+    </section>
+  </main>
+
+  <dialog id="detailDialog" class="detail-dialog" aria-labelledby="detailTitle">
+    <button class="dialog-close" type="button" id="closeDialog" aria-label="關閉詳情">×</button>
+    <div id="detailContent"></div>
+  </dialog>
+
+  <footer><span>Alpine Notes · 2026</span><span>以 Leaflet + OpenStreetMap 製作，無需 API Key</span></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
