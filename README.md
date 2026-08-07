@@ -10,6 +10,8 @@
 
 首頁已改成直接進入互動地圖，不再顯示大型標題 Hero。地圖下方為 7/24–8/2 每日時間軸，時間以旅行對話中能確認的內容為主；「清晨／上午／午後／晚餐」等區間標有「約」，避免把推估寫成精確事實。餐廳區收錄 Restaurant Joséphine 與 Restaurant Zum See 的實際餐點回憶與 Google Maps 連結。
 
+安錫、五湖與 Aiguille du Midi 的實用路線資訊另以官方資料核對：Lake Annecy Tourist Office、Zermatt Tourism 的 5-lake route No. 11，以及 Mont-Blanc Natural Resort 的 Aiguille du Midi 頁面。網站文案刻意區分官方標準路線與旅行者實際增加的 Fluhalp、繞湖和拍照停留。
+
 ## 本機預覽
 
 最簡單的方式是直接雙擊 `index.html`。若瀏覽器限制本機資源，可在此資料夾執行：
