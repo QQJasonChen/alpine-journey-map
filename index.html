@@ -16,18 +16,6 @@
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="eyebrow">SWITZERLAND · FRANCE · ITALY</div>
-      <h1>穿越阿爾卑斯，<br><em>把山留在地圖上。</em></h1>
-      <p>從日內瓦出發，越過白朗峰冰河，再走進馬特洪峰的倒影。點開每個座標，重訪這趟 10 天旅程。</p>
-      <div class="hero-stats" aria-label="旅程摘要">
-        <div><strong>10</strong><span>天</span></div>
-        <div><strong>4</strong><span>國家</span></div>
-        <div><strong>3,842 m</strong><span>最高點</span></div>
-        <div><strong>20</strong><span>旅程座標</span></div>
-      </div>
-    </section>
-
     <section class="map-section" aria-label="互動地圖">
       <div class="map-toolbar">
         <div>
@@ -46,9 +34,17 @@
     <section class="timeline-section" id="timelineSection">
       <div class="section-heading">
         <div><p class="section-kicker">DAY BY DAY</p><h2>行程時間軸</h2></div>
-        <p>確切日期尚未由旅行者確認的節點，以「日期待確認」標示，可直接在 <code>script.js</code> 編輯。</p>
+        <p>依實際旅程與旅行期間的 ChatGPT 對話整理；推估的時段以「約」標示，避免把回憶寫成精確時刻。</p>
       </div>
-      <div class="timeline" id="timeline"></div>
+      <div class="daily-timeline" id="timeline"></div>
+    </section>
+
+    <section class="food-section" id="foodSection">
+      <div class="section-heading">
+        <div><p class="section-kicker">TABLE NOTES</p><h2>旅途中，記得的兩頓飯</h2></div>
+        <p>餐點與感受來自旅行期間的 ChatGPT 對話；用餐時間若未明說，以日期區間標示。</p>
+      </div>
+      <div class="food-grid" id="restaurants"></div>
     </section>
 
     <section class="memories-section">
