@@ -44,7 +44,7 @@ python3 -m http.server 8000
 
 瑞士段日期以旅行者確認的實際旅程為準：7/28 從 Geneva 前往 Annecy 一日遊；7/29 前往 Oeschinensee，結束後當晚直接入住 Zermatt。這取代 Notion 舊版中 7/29 Geneva／Montreux／Brig、7/30 才抵達 Zermatt 的計畫。Fluhalp、Murmelweg、Zum See 暫列在 8/1 同日自然路線中；實際造訪順序仍可調整。Murmelweg 座標為地圖概略位置，若有 GPS 紀錄可再精確替換。
 
-Oeschinensee 的實際經驗：纜車票未預先購買，因此從 Kandersteg 徒步上山約 1.5–2 小時，再前往湖邊。旅行者後續澄清吊橋不在 Oeschinensee，而是在 Zermatt 的 Restaurant Zum See 附近；網站已將它排在 8/1 午餐之前。吊橋名稱尚未確認，因此未自行填入專有名稱。
+Oeschinensee 的實際經驗：纜車票未預先購買，因此從 Kandersteg 徒步上山約 1.5–2 小時，再前往湖邊。旅行者後續澄清吊橋不在 Oeschinensee，而是在 Zermatt 的 Furi／Zum See 路線上。經 Zermatt Tourism 與 OpenStreetMap 核對，正式名稱為 Furi Suspension Bridge（Furi-Hängebrücke），位於 Dossen Glacier Garden 一帶、跨越 Gorner Gorge。網站已新增獨立地圖 pin，並排在 8/1 Zum See 午餐之前。
 
 Top memories 的文字與照片位於同一檔案下方的 `memories` 陣列。照片建議放在新建的 `images/` 資料夾中，使用相對路徑，例如 `images/matterhorn-sunrise.jpg`。
 
